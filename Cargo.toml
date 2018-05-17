@@ -1,0 +1,8 @@
+[package]
+name = "geturi"
+version = "0.1.0"
+authors = ["KSison"]
+
+[dependencies]
+clipboard-win = "2.1.2"
+regex = "1.0.0"
