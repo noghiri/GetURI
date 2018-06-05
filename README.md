@@ -13,3 +13,6 @@ To add it to the context menu, I currently use these keys:
     HKCR\*\shell\GetURI with value "Get &URI"
     HKCR\*\shell\GetURI\command with value """<path_to_file>\geturi.exe"" ""%1"""
 Basically, this adds a GetURI key to the shell, and ties it to a command that passes the file as Environment Argument 1 to the program, wrapped in quotes so the program is happy.
+
+## VCRUNTIME140.dll Error
+You'll need the Visual C++ Redist 2015 x64 from Microsoft, found [here.](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
